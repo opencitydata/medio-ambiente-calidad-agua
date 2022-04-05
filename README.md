@@ -8,4 +8,4 @@ Este vocabulario está siendo utilizado en el contexto de la actuación sobre da
 
 ### Lista de cambios recientes:
  - [05/04/2022] Se sube primera versión de la ontología y del diagrama de clases
-
+ - [06/04/2022] Se añaden labels en inglés
