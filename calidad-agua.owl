@@ -271,6 +271,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Aldrin">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">PLA: Aldrin</rdfs:label>
         <rdfs:label xml:lang="es">PLA: Aldrin</rdfs:label>
     </owl:NamedIndividual>
     
@@ -280,6 +281,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Clorpirifos">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">PLA: Chlorpyrifos</rdfs:label>
         <rdfs:label xml:lang="es">PLA: Clorpirifos</rdfs:label>
     </owl:NamedIndividual>
     
@@ -289,6 +291,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Dieldrin">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">PLA: Dieldrin</rdfs:label>
         <rdfs:label xml:lang="es">PLA: Dieldrin</rdfs:label>
     </owl:NamedIndividual>
     
@@ -298,6 +301,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Heptacloro">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">PLA: Heptachlor</rdfs:label>
         <rdfs:label xml:lang="es">PLA: Heptacloro</rdfs:label>
     </owl:NamedIndividual>
     
@@ -307,6 +311,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-HeptacloroEpoxido">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">PLA: Heptachlor Epoxide</rdfs:label>
         <rdfs:label xml:lang="es">PLA: Heptacloro Epoxido</rdfs:label>
     </owl:NamedIndividual>
     
@@ -317,6 +322,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-alfaHCH">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">PLA: alfa HCH</rdfs:label>
+        <rdfs:label xml:lang="en">PLA: alpha HCH</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -325,6 +331,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-betaHCH">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">PLA: beta HCH</rdfs:label>
         <rdfs:label xml:lang="es">PLA: beta HCH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -334,6 +341,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-deltaHCH">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">PLA: delta HCH</rdfs:label>
         <rdfs:label xml:lang="es">PLA: delta HCH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -343,6 +351,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-gammaHCH">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">PLA: gamma HCH</rdfs:label>
         <rdfs:label xml:lang="es">PLA: gamma HCH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -353,6 +362,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#alcalinidad">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Alcalinidad</rdfs:label>
+        <rdfs:label xml:lang="en">Alkalinity</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -362,6 +372,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#carbonoOrganicoTotal">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Carbono orgánico total</rdfs:label>
+        <rdfs:label xml:lang="en">Total organic carbon</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -371,6 +382,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#cloroCombinadoResidual">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Cloro combinado residual</rdfs:label>
+        <rdfs:label xml:lang="en">Residual combined chlorine</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -380,6 +392,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#cloroLibreResidual">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Cloro libre residual</rdfs:label>
+        <rdfs:label xml:lang="en">Residual free chlorine</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -389,6 +402,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#color">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Color</rdfs:label>
+        <rdfs:label xml:lang="en">Colour</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -397,6 +411,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionAluminio">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Aluminum concentration</rdfs:label>
         <rdfs:label xml:lang="es">Concentración Aluminio</rdfs:label>
     </owl:NamedIndividual>
     
@@ -406,6 +421,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionAmonio">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Ammonium concentration</rdfs:label>
         <rdfs:label xml:lang="es">Concentración Amonio</rdfs:label>
     </owl:NamedIndividual>
     
@@ -415,6 +431,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionAntimonio">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Antimony Concentration</rdfs:label>
         <rdfs:label xml:lang="es">Concentración Antimonio</rdfs:label>
     </owl:NamedIndividual>
     
@@ -424,6 +441,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionArsenico">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Arsenic concentration</rdfs:label>
         <rdfs:label xml:lang="es">ConcentraciónArsenico</rdfs:label>
     </owl:NamedIndividual>
     
@@ -433,6 +451,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBacteriasColiformes">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Coliform Bacteria Concentration</rdfs:label>
         <rdfs:label xml:lang="es">Concentración Bacterias Coliformes</rdfs:label>
     </owl:NamedIndividual>
     
@@ -442,6 +461,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenceno">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Benzene concentration</rdfs:label>
         <rdfs:label xml:lang="es">Concentración Benceno</rdfs:label>
     </owl:NamedIndividual>
     
@@ -451,6 +471,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoAPireno">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Benzo A Pyrene Concentration</rdfs:label>
         <rdfs:label xml:lang="es">Concentración Benzo (a) Pireno</rdfs:label>
     </owl:NamedIndividual>
     
@@ -460,6 +481,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoBFluoranteno">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Benzo B Fluoranthene Concentration</rdfs:label>
         <rdfs:label xml:lang="es">Concentración Benzo (b) Fluoranteno</rdfs:label>
     </owl:NamedIndividual>
     
@@ -470,6 +492,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoGHIPerileno">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Benzo (g,h,i) Perileno</rdfs:label>
+        <rdfs:label xml:lang="en">Concentration of Benzo GHI Perylene</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -478,6 +501,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoKFluoranteno">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Benzo K Fluoranthene Concentration</rdfs:label>
         <rdfs:label xml:lang="es">Concentración Benzo (k) Fluoranteno</rdfs:label>
     </owl:NamedIndividual>
     
@@ -487,6 +511,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBoro">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Boron concentration</rdfs:label>
         <rdfs:label xml:lang="es">Concentración Boro</rdfs:label>
     </owl:NamedIndividual>
     
@@ -496,6 +521,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBromodiclorometamo">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Bromine Dichloromethane Concentration</rdfs:label>
         <rdfs:label xml:lang="es">Concentración Bromo Diclorometamo</rdfs:label>
     </owl:NamedIndividual>
     
@@ -505,6 +531,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBromoformo">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Bromoform concentration</rdfs:label>
         <rdfs:label xml:lang="es">Concentración Bromoformo</rdfs:label>
     </owl:NamedIndividual>
     
@@ -514,6 +541,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCadmio">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Cadmium concentration</rdfs:label>
         <rdfs:label xml:lang="es">Concentración Cadmio</rdfs:label>
     </owl:NamedIndividual>
     
@@ -523,6 +551,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCalcio">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Calcium concentration</rdfs:label>
         <rdfs:label xml:lang="es">Concentración Calcio</rdfs:label>
     </owl:NamedIndividual>
     
@@ -533,6 +562,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCianuro">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Cianuro</rdfs:label>
+        <rdfs:label xml:lang="en">Cyanide Concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -541,6 +571,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCloroformo">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Chloroform concentration</rdfs:label>
         <rdfs:label xml:lang="es">Concentración Cloroformo</rdfs:label>
     </owl:NamedIndividual>
     
@@ -550,6 +581,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCloruro">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Chloride Concentration</rdfs:label>
         <rdfs:label xml:lang="es">Concentración Cloruro</rdfs:label>
     </owl:NamedIndividual>
     
@@ -559,6 +591,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionClostridiumPerfringens">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Clostridium Perfringens Concentration</rdfs:label>
         <rdfs:label xml:lang="es">Concentración Clostridium Perfringens</rdfs:label>
     </owl:NamedIndividual>
     
@@ -569,6 +602,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCobre">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Cobre</rdfs:label>
+        <rdfs:label xml:lang="en">Copper Concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -578,6 +612,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionDibromoclorometano">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Dibromoclorometano</rdfs:label>
+        <rdfs:label xml:lang="en">Dibromochloromethane concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -587,6 +622,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionDiocloroetano">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Diocloroetano</rdfs:label>
+        <rdfs:label xml:lang="en">Diochloroethane concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -596,6 +632,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionEnterococo">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Enterococo</rdfs:label>
+        <rdfs:label xml:lang="en">Enterococcus concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -605,6 +642,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionEscherichiaColi">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Escherichia Coli</rdfs:label>
+        <rdfs:label xml:lang="en">Escherichia coli concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -614,6 +652,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionFluoruro">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Fluoruro</rdfs:label>
+        <rdfs:label xml:lang="en">Fluoride Concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -623,6 +662,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionFonofos">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Fonofos</rdfs:label>
+        <rdfs:label xml:lang="en">Phonophos concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -632,6 +672,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionHidrocarburosPoliciclicosAromaticos">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Hidrocarburos Policiclicos Aromaticos</rdfs:label>
+        <rdfs:label xml:lang="en">Concentration of Polycyclic Aromatic Hydrocarbons</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -641,6 +682,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionHierro">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Hierro</rdfs:label>
+        <rdfs:label xml:lang="en">Iron concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -650,6 +692,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionMagnesio">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Magnesio</rdfs:label>
+        <rdfs:label xml:lang="en">Magnesium concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -659,6 +702,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionManganeso">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Manganeso</rdfs:label>
+        <rdfs:label xml:lang="en">Manganese concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -667,7 +711,8 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionMeltiparation">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
-        <rdfs:label xml:lang="es">Concentración Meltiparation</rdfs:label>
+        <rdfs:label xml:lang="es">Concentración Metil paration</rdfs:label>
+        <rdfs:label xml:lang="en">Methyl Parathion Concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -677,6 +722,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionMercurio">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Mercurio</rdfs:label>
+        <rdfs:label xml:lang="en">Mercury concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -686,6 +732,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNiquel">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Níquel</rdfs:label>
+        <rdfs:label xml:lang="en">Nickel concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -695,6 +742,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNitrato">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Nitrato</rdfs:label>
+        <rdfs:label xml:lang="en">Nitrate concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -704,6 +752,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNitrito">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Nitrito</rdfs:label>
+        <rdfs:label xml:lang="en">Nitrite concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -713,6 +762,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNitrogenoKjeldahl">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Nitrógeno Kjeldahl</rdfs:label>
+        <rdfs:label xml:lang="en">Kjeldahl Nitrogen Concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -722,6 +772,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionPlomo">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Plomo</rdfs:label>
+        <rdfs:label xml:lang="en">Lead Concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -731,6 +782,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionPotasio">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Potasio</rdfs:label>
+        <rdfs:label xml:lang="en">Potassium concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -740,6 +792,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionSelenio">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Selenio</rdfs:label>
+        <rdfs:label xml:lang="en">Selenium concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -749,6 +802,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionSodio">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Sodio</rdfs:label>
+        <rdfs:label xml:lang="en">Sodium concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -758,6 +812,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionSulfato">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Concentración Sulfato</rdfs:label>
+        <rdfs:label xml:lang="en">Sulfate Concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -766,7 +821,8 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionTetracloroeteno">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
-        <rdfs:label xml:lang="es">Concentración Tetracloroeteno</rdfs:label>
+        <rdfs:label xml:lang="es">Concentración Tetracloroetileno</rdfs:label>
+        <rdfs:label xml:lang="en">Tetrachlorethylene concentration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -776,6 +832,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#conductividadA20GradosCentigrados">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Conductividad a 20ºC</rdfs:label>
+        <rdfs:label xml:lang="en">Conductivity at 20ºC</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -785,6 +842,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#cromoTotal">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Cromo total</rdfs:label>
+        <rdfs:label xml:lang="en">Total chrome</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -794,6 +852,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#dureza">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Dureza</rdfs:label>
+        <rdfs:label xml:lang="en">Hardness</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -802,6 +861,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#indeno123-cdPireno">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Indeno 123-CD Pyrene</rdfs:label>
         <rdfs:label xml:lang="es">Indeno-123-cd Pireno</rdfs:label>
     </owl:NamedIndividual>
     
@@ -811,6 +871,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#indiceDeLangelier">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Langelier index</rdfs:label>
         <rdfs:label xml:lang="es">Índice de Langelier</rdfs:label>
     </owl:NamedIndividual>
     
@@ -821,6 +882,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#oxidabilidad">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Oxidabilidad</rdfs:label>
+        <rdfs:label xml:lang="en">Oxidability</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -829,6 +891,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#pH">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">pH</rdfs:label>
         <rdfs:label xml:lang="es">pH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -838,6 +901,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#paration">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Parathion</rdfs:label>
         <rdfs:label xml:lang="es">Paration</rdfs:label>
     </owl:NamedIndividual>
     
@@ -848,6 +912,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#radiactividadAlfaTotal">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Radiactividad alfa total</rdfs:label>
+        <rdfs:label xml:lang="en">Total alpha radioactivity</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -856,6 +921,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#radiactividadBetaResto">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Beta radioactivity remainder</rdfs:label>
         <rdfs:label xml:lang="es">Radiactividad beta resto</rdfs:label>
     </owl:NamedIndividual>
     
@@ -866,6 +932,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#radiactividadBetaTotal">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Radiactividad beta total</rdfs:label>
+        <rdfs:label xml:lang="en">Total beta radioactivity</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -874,6 +941,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#recuentoDeColoniasA22GradosCentigrados">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Colony count at 22ºC</rdfs:label>
         <rdfs:label xml:lang="es">Recuento de colonias a 22ºC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -883,6 +951,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#residuoSeco">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Dry residue</rdfs:label>
         <rdfs:label xml:lang="es">Residuo seco</rdfs:label>
     </owl:NamedIndividual>
     
@@ -893,6 +962,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#totalDePlaguicidas">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Total de plaguicidas</rdfs:label>
+        <rdfs:label xml:lang="en">Total pesticides</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -901,6 +971,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#tricloroeteno">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Trichloroethene</rdfs:label>
         <rdfs:label xml:lang="es">Tricloroeteno</rdfs:label>
     </owl:NamedIndividual>
     
@@ -910,6 +981,7 @@
 
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#tricloroetenoTetracloretono">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
+        <rdfs:label xml:lang="en">Trichloroethene + Tetrachloroethene</rdfs:label>
         <rdfs:label xml:lang="es">Tricloroeteno + Tetracloroeteno</rdfs:label>
     </owl:NamedIndividual>
     
@@ -920,6 +992,7 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#trihalometanos">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Trihalometanos</rdfs:label>
+        <rdfs:label xml:lang="en">Trihalomethanes</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -929,12 +1002,13 @@
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#turbidez">
         <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty"/>
         <rdfs:label xml:lang="es">Turbidez</rdfs:label>
+        <rdfs:label xml:lang="en">Turbidity</rdfs:label>
     </owl:NamedIndividual>
     <rdf:Description>
-        <rdfs:label>RDF</rdfs:label>
+        <rdfs:label>HTML</rdfs:label>
     </rdf:Description>
     <rdf:Description>
-        <rdfs:label>HTML</rdfs:label>
+        <rdfs:label>RDF</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
