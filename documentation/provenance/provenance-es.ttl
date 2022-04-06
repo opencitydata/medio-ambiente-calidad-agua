@@ -1,0 +1,14 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua/0.1.0> a prov:Entity;
+	 dc:title "Calidad del Agua";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:specializationOf <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#>;
+	 prov:wasGeneratedAt "2022-04-04";
+.
+:agent0 a prov:Agent; foaf:name "Enrique Martín López".
+:agent1 a prov:Agent; foaf:name "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)".

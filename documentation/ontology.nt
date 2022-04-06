@@ -1,0 +1,1042 @@
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua/0.1.0> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/sosa/> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> <http://purl.org/dc/elements/1.1/creator> "Enrique Martín López" .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)" .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> <http://purl.org/dc/elements/1.1/identifier> "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua" .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)" .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> <http://purl.org/dc/terms/hasFormat> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua.html> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> <http://purl.org/dc/terms/hasFormat> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua.owl> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> <http://purl.org/dc/terms/issued> "2022-01-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> <http://purl.org/dc/terms/modified> "2022-04-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> <http://www.w3.org/2000/01/rdf-schema#comment> "Este vocabulario extiende la W3C Semantic Sensor Network Ontology (SOSA) con propiedades específicas para la representación de datos relacionados con la calidad del agua"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> <http://www.w3.org/2002/07/owl#versionInfo> "Ontología para describir datos de calidad del agua en una ciudad."@es .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/identifier
+<http://purl.org/dc/elements/1.1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/rights
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/hasFormat
+<http://purl.org/dc/terms/hasFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/rights
+<http://purl.org/dc/terms/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/domainIncludes
+<http://schema.org/domainIncludes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/rangeIncludes
+<http://schema.org/rangeIncludes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#comment
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#isDefinedBy
+<http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#label
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#example
+<http://www.w3.org/2004/02/skos/core#example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#note
+<http://www.w3.org/2004/02/skos/core#note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# http://www.w3.org/2001/XMLSchema#time
+<http://www.w3.org/2001/XMLSchema#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/sosa/actsOnProperty
+<http://www.w3.org/ns/sosa/actsOnProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/actsOnProperty> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/sosa/isActedOnBy> .
+<http://www.w3.org/ns/sosa/actsOnProperty> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Actuation> .
+<http://www.w3.org/ns/sosa/actsOnProperty> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/ActuatableProperty> .
+<http://www.w3.org/ns/sosa/actsOnProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between an Actuation and the property of a FeatureOfInterest it is acting upon."@en .
+<http://www.w3.org/ns/sosa/actsOnProperty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/actsOnProperty> <http://www.w3.org/2000/01/rdf-schema#label> "acts on property"@en .
+<http://www.w3.org/ns/sosa/actsOnProperty> <http://www.w3.org/2004/02/skos/core#definition> "Relation between an Actuation and the property of a FeatureOfInterest it is acting upon."@en .
+<http://www.w3.org/ns/sosa/actsOnProperty> <http://www.w3.org/2004/02/skos/core#example> "In the activity (Actuation) of automatically closing a window if the temperature in a room drops below 20 degrees Celsius, the property on which the Actuator acts upon is the state of the window as it changes from being open to being closed. "@en .
+# 
+# http://www.w3.org/ns/sosa/hasFeatureOfInterest
+<http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/sosa/isFeatureOfInterestOf> .
+<http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Actuation> .
+<http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Observation> .
+<http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Sampling> .
+<http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/FeatureOfInterest> .
+<http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Sample> .
+<http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.w3.org/2000/01/rdf-schema#comment> "A relation between an Observation and the entity whose quality was observed, or between an Actuation and the entity whose property was modified, or between an act of Sampling and the entity that was sampled."@en .
+<http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.w3.org/2000/01/rdf-schema#label> "has feature of interest"@en .
+<http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.w3.org/2004/02/skos/core#definition> "A relation between an Observation and the entity whose quality was observed, or between an Actuation and the entity whose property was modified, or between an act of Sampling and the entity that was sampled."@en .
+<http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.w3.org/2004/02/skos/core#example> "For example, in an Observation of the weight of a person, the FeatureOfInterest is the person and the property is its weight."@en .
+# 
+# http://www.w3.org/ns/sosa/hasResult
+<http://www.w3.org/ns/sosa/hasResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/hasResult> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/sosa/isResultOf> .
+<http://www.w3.org/ns/sosa/hasResult> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Actuation> .
+<http://www.w3.org/ns/sosa/hasResult> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Observation> .
+<http://www.w3.org/ns/sosa/hasResult> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Sampling> .
+<http://www.w3.org/ns/sosa/hasResult> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Result> .
+<http://www.w3.org/ns/sosa/hasResult> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Sample> .
+<http://www.w3.org/ns/sosa/hasResult> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation linking an Observation or Actuation or act of Sampling and a Result or Sample."@en .
+<http://www.w3.org/ns/sosa/hasResult> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/hasResult> <http://www.w3.org/2000/01/rdf-schema#label> "has result"@en .
+<http://www.w3.org/ns/sosa/hasResult> <http://www.w3.org/2004/02/skos/core#definition> "Relation linking an Observation or Actuation or act of Sampling and a Result or Sample."@en .
+# 
+# http://www.w3.org/ns/sosa/hasSample
+<http://www.w3.org/ns/sosa/hasSample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/hasSample> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/sosa/isSampleOf> .
+<http://www.w3.org/ns/sosa/hasSample> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/FeatureOfInterest> .
+<http://www.w3.org/ns/sosa/hasSample> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Sample> .
+<http://www.w3.org/ns/sosa/hasSample> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a FeatureOfInterest and the Sample used to represent it."@en .
+<http://www.w3.org/ns/sosa/hasSample> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/hasSample> <http://www.w3.org/2000/01/rdf-schema#label> "has sample"@en .
+<http://www.w3.org/ns/sosa/hasSample> <http://www.w3.org/2004/02/skos/core#definition> "Relation between a FeatureOfInterest and the Sample used to represent it."@en .
+# 
+# http://www.w3.org/ns/sosa/hosts
+<http://www.w3.org/ns/sosa/hosts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/hosts> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/sosa/isHostedBy> .
+<http://www.w3.org/ns/sosa/hosts> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Platform> .
+<http://www.w3.org/ns/sosa/hosts> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Actuator> .
+<http://www.w3.org/ns/sosa/hosts> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Platform> .
+<http://www.w3.org/ns/sosa/hosts> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Sampler> .
+<http://www.w3.org/ns/sosa/hosts> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Sensor> .
+<http://www.w3.org/ns/sosa/hosts> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a Platform and a Sensor, Actuator, Sampler, or Platform, hosted or mounted on it."@en .
+<http://www.w3.org/ns/sosa/hosts> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/hosts> <http://www.w3.org/2000/01/rdf-schema#label> "hosts"@en .
+<http://www.w3.org/ns/sosa/hosts> <http://www.w3.org/2004/02/skos/core#definition> "Relation between a Platform and a Sensor, Actuator, Sampler, or Platform, hosted or mounted on it."@en .
+# 
+# http://www.w3.org/ns/sosa/isActedOnBy
+<http://www.w3.org/ns/sosa/isActedOnBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/isActedOnBy> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/ActuatableProperty> .
+<http://www.w3.org/ns/sosa/isActedOnBy> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Actuation> .
+<http://www.w3.org/ns/sosa/isActedOnBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between an ActuatableProperty of a FeatureOfInterest and an Actuation changing its state."@en .
+<http://www.w3.org/ns/sosa/isActedOnBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/isActedOnBy> <http://www.w3.org/2000/01/rdf-schema#label> "is acted on by"@en .
+<http://www.w3.org/ns/sosa/isActedOnBy> <http://www.w3.org/2004/02/skos/core#definition> "Relation between an ActuatableProperty of a FeatureOfInterest and an Actuation changing its state."@en .
+<http://www.w3.org/ns/sosa/isActedOnBy> <http://www.w3.org/2004/02/skos/core#example> "In the activity (Actuation) of automatically closing a window if the temperature in a room drops below 20 degrees Celsius, the property on which the Actuator acts upon is the state of the window as it changes from being open to being closed. "@en .
+# 
+# http://www.w3.org/ns/sosa/isFeatureOfInterestOf
+<http://www.w3.org/ns/sosa/isFeatureOfInterestOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/isFeatureOfInterestOf> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/FeatureOfInterest> .
+<http://www.w3.org/ns/sosa/isFeatureOfInterestOf> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Sample> .
+<http://www.w3.org/ns/sosa/isFeatureOfInterestOf> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Actuation> .
+<http://www.w3.org/ns/sosa/isFeatureOfInterestOf> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Observation> .
+<http://www.w3.org/ns/sosa/isFeatureOfInterestOf> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Sampling> .
+<http://www.w3.org/ns/sosa/isFeatureOfInterestOf> <http://www.w3.org/2000/01/rdf-schema#comment> "A relation between a FeatureOfInterest and an Observation about it, an Actuation acting on it, or an act of Sampling that sampled it."@en .
+<http://www.w3.org/ns/sosa/isFeatureOfInterestOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/isFeatureOfInterestOf> <http://www.w3.org/2000/01/rdf-schema#label> "is feature of interest of"@en .
+<http://www.w3.org/ns/sosa/isFeatureOfInterestOf> <http://www.w3.org/2004/02/skos/core#definition> "A relation between a FeatureOfInterest and an Observation about it, an Actuation acting on it, or an act of Sampling that sampled it."@en .
+# 
+# http://www.w3.org/ns/sosa/isHostedBy
+<http://www.w3.org/ns/sosa/isHostedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/isHostedBy> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Actuator> .
+<http://www.w3.org/ns/sosa/isHostedBy> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Platform> .
+<http://www.w3.org/ns/sosa/isHostedBy> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Sampler> .
+<http://www.w3.org/ns/sosa/isHostedBy> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Sensor> .
+<http://www.w3.org/ns/sosa/isHostedBy> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Platform> .
+<http://www.w3.org/ns/sosa/isHostedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a Sensor, Actuator, Sampler, or Platform, and the Platform that it is mounted on or hosted by."@en .
+<http://www.w3.org/ns/sosa/isHostedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/isHostedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is hosted by"@en .
+<http://www.w3.org/ns/sosa/isHostedBy> <http://www.w3.org/2004/02/skos/core#definition> "Relation between a Sensor, Actuator, Sampler, or Platform, and the Platform that it is mounted on or hosted by."@en .
+# 
+# http://www.w3.org/ns/sosa/isObservedBy
+<http://www.w3.org/ns/sosa/isObservedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/isObservedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/sosa/observes> .
+<http://www.w3.org/ns/sosa/isObservedBy> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/ObservableProperty> .
+<http://www.w3.org/ns/sosa/isObservedBy> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Sensor> .
+<http://www.w3.org/ns/sosa/isObservedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between an ObservableProperty and the Sensor able to observe it."@en .
+<http://www.w3.org/ns/sosa/isObservedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/isObservedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is observed by"@en .
+<http://www.w3.org/ns/sosa/isObservedBy> <http://www.w3.org/2004/02/skos/core#definition> "Relation between an ObservableProperty and the Sensor able to observe it."@en .
+# 
+# http://www.w3.org/ns/sosa/isResultOf
+<http://www.w3.org/ns/sosa/isResultOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/isResultOf> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Result> .
+<http://www.w3.org/ns/sosa/isResultOf> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Sample> .
+<http://www.w3.org/ns/sosa/isResultOf> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Actuation> .
+<http://www.w3.org/ns/sosa/isResultOf> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Observation> .
+<http://www.w3.org/ns/sosa/isResultOf> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Sampling> .
+<http://www.w3.org/ns/sosa/isResultOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation linking a Result to the Observation or Actuation or act of Sampling that created or caused it."@en .
+<http://www.w3.org/ns/sosa/isResultOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/isResultOf> <http://www.w3.org/2000/01/rdf-schema#label> "is result of"@en .
+<http://www.w3.org/ns/sosa/isResultOf> <http://www.w3.org/2004/02/skos/core#definition> "Relation linking a Result to the Observation or Actuation or act of Sampling that created or caused it."@en .
+# 
+# http://www.w3.org/ns/sosa/isSampleOf
+<http://www.w3.org/ns/sosa/isSampleOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/isSampleOf> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Sample> .
+<http://www.w3.org/ns/sosa/isSampleOf> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/FeatureOfInterest> .
+<http://www.w3.org/ns/sosa/isSampleOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation from a Sample to the FeatureOfInterest that it is intended to be representative of."@en .
+<http://www.w3.org/ns/sosa/isSampleOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/isSampleOf> <http://www.w3.org/2000/01/rdf-schema#label> "is sample of"@en .
+<http://www.w3.org/ns/sosa/isSampleOf> <http://www.w3.org/2004/02/skos/core#definition> "Relation from a Sample to the FeatureOfInterest that it is intended to be representative of."@en .
+# 
+# http://www.w3.org/ns/sosa/madeActuation
+<http://www.w3.org/ns/sosa/madeActuation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/madeActuation> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/sosa/madeByActuator> .
+<http://www.w3.org/ns/sosa/madeActuation> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Actuator> .
+<http://www.w3.org/ns/sosa/madeActuation> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Actuation> .
+<http://www.w3.org/ns/sosa/madeActuation> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between an Actuator and the Actuation it has made."@en .
+<http://www.w3.org/ns/sosa/madeActuation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/madeActuation> <http://www.w3.org/2000/01/rdf-schema#label> "made actuation"@en .
+<http://www.w3.org/ns/sosa/madeActuation> <http://www.w3.org/2004/02/skos/core#definition> "Relation between an Actuator and the Actuation it has made."@en .
+# 
+# http://www.w3.org/ns/sosa/madeByActuator
+<http://www.w3.org/ns/sosa/madeByActuator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/madeByActuator> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Actuation> .
+<http://www.w3.org/ns/sosa/madeByActuator> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Actuator> .
+<http://www.w3.org/ns/sosa/madeByActuator> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation linking an Actuation to the Actuator that made that Actuation."@en .
+<http://www.w3.org/ns/sosa/madeByActuator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/madeByActuator> <http://www.w3.org/2000/01/rdf-schema#label> "made by actuator"@en .
+<http://www.w3.org/ns/sosa/madeByActuator> <http://www.w3.org/2004/02/skos/core#definition> "Relation linking an Actuation to the Actuator that made that Actuation."@en .
+# 
+# http://www.w3.org/ns/sosa/madeBySampler
+<http://www.w3.org/ns/sosa/madeBySampler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/madeBySampler> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/sosa/madeSampling> .
+<http://www.w3.org/ns/sosa/madeBySampler> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Sampling> .
+<http://www.w3.org/ns/sosa/madeBySampler> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Sampler> .
+<http://www.w3.org/ns/sosa/madeBySampler> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation linking an act of Sampling to the Sampler (sampling device or entity) that made it."@en .
+<http://www.w3.org/ns/sosa/madeBySampler> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/madeBySampler> <http://www.w3.org/2000/01/rdf-schema#label> "made by sampler"@en .
+<http://www.w3.org/ns/sosa/madeBySampler> <http://www.w3.org/2004/02/skos/core#definition> "Relation linking an act of Sampling to the Sampler (sampling device or entity) that made it."@en .
+# 
+# http://www.w3.org/ns/sosa/madeBySensor
+<http://www.w3.org/ns/sosa/madeBySensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/madeBySensor> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/sosa/madeObservation> .
+<http://www.w3.org/ns/sosa/madeBySensor> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Observation> .
+<http://www.w3.org/ns/sosa/madeBySensor> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Sensor> .
+<http://www.w3.org/ns/sosa/madeBySensor> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between an Observation and the Sensor which made the Observation."@en .
+<http://www.w3.org/ns/sosa/madeBySensor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/madeBySensor> <http://www.w3.org/2000/01/rdf-schema#label> "made by sensor"@en .
+<http://www.w3.org/ns/sosa/madeBySensor> <http://www.w3.org/2004/02/skos/core#definition> "Relation between an Observation and the Sensor which made the Observation."@en .
+# 
+# http://www.w3.org/ns/sosa/madeObservation
+<http://www.w3.org/ns/sosa/madeObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/madeObservation> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Sensor> .
+<http://www.w3.org/ns/sosa/madeObservation> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Observation> .
+<http://www.w3.org/ns/sosa/madeObservation> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a Sensor and an Observation made by the Sensor."@en .
+<http://www.w3.org/ns/sosa/madeObservation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/madeObservation> <http://www.w3.org/2000/01/rdf-schema#label> "made observation"@en .
+<http://www.w3.org/ns/sosa/madeObservation> <http://www.w3.org/2004/02/skos/core#definition> "Relation between a Sensor and an Observation made by the Sensor."@en .
+# 
+# http://www.w3.org/ns/sosa/madeSampling
+<http://www.w3.org/ns/sosa/madeSampling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/madeSampling> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Sampler> .
+<http://www.w3.org/ns/sosa/madeSampling> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Sampling> .
+<http://www.w3.org/ns/sosa/madeSampling> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a Sampler (sampling device or entity) and the Sampling act it performed."@en .
+<http://www.w3.org/ns/sosa/madeSampling> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/madeSampling> <http://www.w3.org/2000/01/rdf-schema#label> "made sampling"@en .
+<http://www.w3.org/ns/sosa/madeSampling> <http://www.w3.org/2004/02/skos/core#definition> "Relation between a Sampler (sampling device or entity) and the Sampling act it performed."@en .
+# 
+# http://www.w3.org/ns/sosa/observedProperty
+<http://www.w3.org/ns/sosa/observedProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/observedProperty> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Observation> .
+<http://www.w3.org/ns/sosa/observedProperty> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/ObservableProperty> .
+<http://www.w3.org/ns/sosa/observedProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation linking an Observation to the property that was observed. The ObservableProperty should be a property of the FeatureOfInterest (linked by hasFeatureOfInterest) of this Observation."@en .
+<http://www.w3.org/ns/sosa/observedProperty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/observedProperty> <http://www.w3.org/2000/01/rdf-schema#label> "observed property"@en .
+<http://www.w3.org/ns/sosa/observedProperty> <http://www.w3.org/2004/02/skos/core#definition> "Relation linking an Observation to the property that was observed. The ObservableProperty should be a property of the FeatureOfInterest (linked by hasFeatureOfInterest) of this Observation."@en .
+# 
+# http://www.w3.org/ns/sosa/observes
+<http://www.w3.org/ns/sosa/observes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/observes> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Sensor> .
+<http://www.w3.org/ns/sosa/observes> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/ObservableProperty> .
+<http://www.w3.org/ns/sosa/observes> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a Sensor and an ObservableProperty that it is capable of sensing."@en .
+<http://www.w3.org/ns/sosa/observes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/observes> <http://www.w3.org/2000/01/rdf-schema#label> "observes"@en .
+<http://www.w3.org/ns/sosa/observes> <http://www.w3.org/2004/02/skos/core#definition> "Relation between a Sensor and an ObservableProperty that it is capable of sensing."@en .
+# 
+# http://www.w3.org/ns/sosa/phenomenonTime
+<http://www.w3.org/ns/sosa/phenomenonTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/phenomenonTime> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Actuation> .
+<http://www.w3.org/ns/sosa/phenomenonTime> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Observation> .
+<http://www.w3.org/ns/sosa/phenomenonTime> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Sampling> .
+<http://www.w3.org/ns/sosa/phenomenonTime> <http://schema.org/rangeIncludes> <http://www.w3.org/2006/time#TemporalEntity> .
+<http://www.w3.org/ns/sosa/phenomenonTime> <http://www.w3.org/2000/01/rdf-schema#comment> "The time that the Result of an Observation, Actuation or Sampling applies to the FeatureOfInterest. Not necessarily the same as the resultTime. May be an Interval or an Instant, or some other compound TemporalEntity."@en .
+<http://www.w3.org/ns/sosa/phenomenonTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/phenomenonTime> <http://www.w3.org/2000/01/rdf-schema#label> "phenomenon time"@en .
+<http://www.w3.org/ns/sosa/phenomenonTime> <http://www.w3.org/2004/02/skos/core#definition> "The time that the Result of an Observation, Actuation or Sampling applies to the FeatureOfInterest. Not necessarily the same as the resultTime. May be an Interval or an Instant, or some other compound TemporalEntity."@en .
+# 
+# http://www.w3.org/ns/sosa/usedProcedure
+<http://www.w3.org/ns/sosa/usedProcedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/sosa/usedProcedure> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Actuation> .
+<http://www.w3.org/ns/sosa/usedProcedure> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Observation> .
+<http://www.w3.org/ns/sosa/usedProcedure> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Sampling> .
+<http://www.w3.org/ns/sosa/usedProcedure> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Procedure> .
+<http://www.w3.org/ns/sosa/usedProcedure> <http://www.w3.org/2000/01/rdf-schema#comment> "A relation to link to a re-usable Procedure used in making an Observation, an Actuation, or a Sample, typically through a Sensor, Actuator or Sampler."@en .
+<http://www.w3.org/ns/sosa/usedProcedure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/usedProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "used procedure"@en .
+<http://www.w3.org/ns/sosa/usedProcedure> <http://www.w3.org/2004/02/skos/core#definition> "A relation to link to a re-usable Procedure used in making an Observation, an Actuation, or a Sample, typically through a Sensor, Actuator or Sampler."@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.w3.org/ns/sosa/hasSimpleResult
+<http://www.w3.org/ns/sosa/hasSimpleResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/ns/sosa/hasSimpleResult> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Actuation> .
+<http://www.w3.org/ns/sosa/hasSimpleResult> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Observation> .
+<http://www.w3.org/ns/sosa/hasSimpleResult> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Sampling> .
+<http://www.w3.org/ns/sosa/hasSimpleResult> <http://www.w3.org/2000/01/rdf-schema#comment> "The simple value of an Observation or Actuation or act of Sampling."@en .
+<http://www.w3.org/ns/sosa/hasSimpleResult> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/hasSimpleResult> <http://www.w3.org/2000/01/rdf-schema#label> "has simple result"@en .
+<http://www.w3.org/ns/sosa/hasSimpleResult> <http://www.w3.org/2004/02/skos/core#definition> "The simple value of an Observation or Actuation or act of Sampling."@en .
+<http://www.w3.org/ns/sosa/hasSimpleResult> <http://www.w3.org/2004/02/skos/core#example> "For instance, the values 23 or true."@en .
+# 
+# http://www.w3.org/ns/sosa/resultTime
+<http://www.w3.org/ns/sosa/resultTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/ns/sosa/resultTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.w3.org/ns/sosa/resultTime> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Actuation> .
+<http://www.w3.org/ns/sosa/resultTime> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Observation> .
+<http://www.w3.org/ns/sosa/resultTime> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Sampling> .
+<http://www.w3.org/ns/sosa/resultTime> <http://www.w3.org/2000/01/rdf-schema#comment> "The result time is the instant of time when the Observation, Actuation or Sampling activity was completed."@en .
+<http://www.w3.org/ns/sosa/resultTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/resultTime> <http://www.w3.org/2000/01/rdf-schema#label> "result time"@en .
+<http://www.w3.org/ns/sosa/resultTime> <http://www.w3.org/2004/02/skos/core#definition> "The result time is the instant of time when the Observation, Actuation or Sampling activity was completed."@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/vocommons/voaf#Vocabulary
+<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityObservation
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityObservation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/sosa/Observation> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityObservation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualitySensor> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/sosa/madeBySensor> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityObservation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/sosa/observedProperty> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityObservation> <http://purl.org/dc/terms/issued> "2022-01-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityObservation> <http://www.w3.org/2000/01/rdf-schema#comment> "Clase que representa las observaciones relacionadas con calidad del agua"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityObservation> <http://www.w3.org/2000/01/rdf-schema#comment> "Class that represents observations related to water quality"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityObservation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityObservation> <http://www.w3.org/2000/01/rdf-schema#label> "Observación de calidad del agua"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityObservation> <http://www.w3.org/2000/01/rdf-schema#label> "Water Quality Observation"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/sosa/ObservableProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> <http://purl.org/dc/terms/issued> "2022-01-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Clase que agrupa a todas las propiedades que se utilizan normalmente para representar la calidad del agua"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Class that groups all the properties that are normally measured by water quality sensors"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Propiedad de calidad del agua"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Water Quality Property"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualitySensor
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualitySensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualitySensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/sosa/Sensor> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualitySensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityStation> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/sosa/isHostedBy> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualitySensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/sosa/observes> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualitySensor> <http://purl.org/dc/terms/issued> "2022-01-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualitySensor> <http://www.w3.org/2000/01/rdf-schema#comment> "Sensor para realizar mediciones de calidad del agua"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualitySensor> <http://www.w3.org/2000/01/rdf-schema#comment> "Sensor that takes water quality measurements"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualitySensor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualitySensor> <http://www.w3.org/2000/01/rdf-schema#label> "Sensor de calidad del agua"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualitySensor> <http://www.w3.org/2000/01/rdf-schema#label> "Water Quality Sensor"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityStation
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityStation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/sosa/Platform> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityStation> <http://purl.org/dc/terms/issued> "2022-01-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityStation> <http://www.w3.org/2000/01/rdf-schema#comment> "Class that represents water quality stations"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityStation> <http://www.w3.org/2000/01/rdf-schema#comment> "Estación de medida de calidad del agua"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityStation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityStation> <http://www.w3.org/2000/01/rdf-schema#label> "Estación de medición de la calidad del agua"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityStation> <http://www.w3.org/2000/01/rdf-schema#label> "Water Quality Station"@en .
+# 
+# http://www.w3.org/2006/time#TemporalEntity
+<http://www.w3.org/2006/time#TemporalEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/sosa/ActuatableProperty
+<http://www.w3.org/ns/sosa/ActuatableProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/sosa/ActuatableProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "An actuatable quality (property, characteristic) of a FeatureOfInterest."@en .
+<http://www.w3.org/ns/sosa/ActuatableProperty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/ActuatableProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Actuatable Property"@en .
+<http://www.w3.org/ns/sosa/ActuatableProperty> <http://www.w3.org/2004/02/skos/core#definition> "An actuatable quality (property, characteristic) of a FeatureOfInterest."@en .
+<http://www.w3.org/ns/sosa/ActuatableProperty> <http://www.w3.org/2004/02/skos/core#example> "A window actuator acts by changing the state between a frame and a window. The ability of the window to be opened and closed is its ActuatableProperty."@en .
+# 
+# http://www.w3.org/ns/sosa/Actuation
+<http://www.w3.org/ns/sosa/Actuation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/sosa/Actuation> <http://www.w3.org/2000/01/rdf-schema#comment> "An Actuation carries out an (Actuation) Procedure to change the state of the world using an Actuator."@en .
+<http://www.w3.org/ns/sosa/Actuation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/Actuation> <http://www.w3.org/2000/01/rdf-schema#label> "Actuation"@en .
+<http://www.w3.org/ns/sosa/Actuation> <http://www.w3.org/2004/02/skos/core#definition> "An Actuation carries out an (Actuation) Procedure to change the state of the world using an Actuator."@en .
+<http://www.w3.org/ns/sosa/Actuation> <http://www.w3.org/2004/02/skos/core#example> "The activity of automatically closing a window if the temperature in a room drops below 20 degree Celsius. The activity is the Actuation and the device that closes the window is the Actuator. The Procedure is the rule, plan, or specification that defines the conditions that triggers the Actuation, here a drop in temperature. "@en .
+# 
+# http://www.w3.org/ns/sosa/Actuator
+<http://www.w3.org/ns/sosa/Actuator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/sosa/Actuator> <http://www.w3.org/2000/01/rdf-schema#comment> "A device that is used by, or implements, an (Actuation) Procedure that changes the state of the world."@en .
+<http://www.w3.org/ns/sosa/Actuator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/Actuator> <http://www.w3.org/2000/01/rdf-schema#label> "Actuator"@en .
+<http://www.w3.org/ns/sosa/Actuator> <http://www.w3.org/2004/02/skos/core#definition> "A device that is used by, or implements, an (Actuation) Procedure that changes the state of the world."@en .
+<http://www.w3.org/ns/sosa/Actuator> <http://www.w3.org/2004/02/skos/core#example> "A window actuator for automatic window control, i.e., opening or closing the window."@en .
+# 
+# http://www.w3.org/ns/sosa/FeatureOfInterest
+<http://www.w3.org/ns/sosa/FeatureOfInterest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/sosa/FeatureOfInterest> <http://www.w3.org/2000/01/rdf-schema#comment> "The thing whose property is being estimated or calculated in the course of an Observation to arrive at a Result or whose property is being manipulated by an Actuator, or which is being sampled or transformed in an act of Sampling."@en .
+<http://www.w3.org/ns/sosa/FeatureOfInterest> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/FeatureOfInterest> <http://www.w3.org/2000/01/rdf-schema#label> "Feature Of Interest"@en .
+<http://www.w3.org/ns/sosa/FeatureOfInterest> <http://www.w3.org/2004/02/skos/core#definition> "The thing whose property is being estimated or calculated in the course of an Observation to arrive at a Result or whose property is being manipulated by an Actuator, or which is being sampled or transformed in an act of Sampling."@en .
+<http://www.w3.org/ns/sosa/FeatureOfInterest> <http://www.w3.org/2004/02/skos/core#example> "When measuring the height of a tree, the height is the observed ObservableProperty, 20m may be the Result of the Observation, and the tree is the FeatureOfInterest. A window is a FeatureOfInterest for an automatic window control Actuator."@en .
+# 
+# http://www.w3.org/ns/sosa/ObservableProperty
+<http://www.w3.org/ns/sosa/ObservableProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/sosa/ObservableProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "An observable quality (property, characteristic) of a FeatureOfInterest."@en .
+<http://www.w3.org/ns/sosa/ObservableProperty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/ObservableProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Observable Property"@en .
+<http://www.w3.org/ns/sosa/ObservableProperty> <http://www.w3.org/2004/02/skos/core#definition> "An observable quality (property, characteristic) of a FeatureOfInterest."@en .
+<http://www.w3.org/ns/sosa/ObservableProperty> <http://www.w3.org/2004/02/skos/core#example> "The height of a tree, the depth of a water body, or the temperature of a surface are examples of observable properties, while the value of a classic car is not (directly) observable but asserted."@en .
+# 
+# http://www.w3.org/ns/sosa/Observation
+<http://www.w3.org/ns/sosa/Observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/sosa/Observation> <http://www.w3.org/2000/01/rdf-schema#comment> "Act of carrying out an (Observation) Procedure to estimate or calculate a value of a property of a FeatureOfInterest. Links to a Sensor to describe what made the Observation and how; links to an ObservableProperty to describe what the result is an estimate of, and to a FeatureOfInterest to detail what that property was associated with."@en .
+<http://www.w3.org/ns/sosa/Observation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/Observation> <http://www.w3.org/2000/01/rdf-schema#label> "Observation"@en .
+<http://www.w3.org/ns/sosa/Observation> <http://www.w3.org/2004/02/skos/core#definition> "Act of carrying out an (Observation) Procedure to estimate or calculate a value of a property of a FeatureOfInterest. Links to a Sensor to describe what made the Observation and how; links to an ObservableProperty to describe what the result is an estimate of, and to a FeatureOfInterest to detail what that property was associated with."@en .
+<http://www.w3.org/ns/sosa/Observation> <http://www.w3.org/2004/02/skos/core#example> "The activity of estimating the intensity of an Earthquake using the Mercalli intensity scale is an Observation as is measuring the moment magnitude, i.e., the energy released by said earthquake."@en .
+# 
+# http://www.w3.org/ns/sosa/Platform
+<http://www.w3.org/ns/sosa/Platform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/sosa/Platform> <http://www.w3.org/2000/01/rdf-schema#comment> "A Platform is an entity that hosts other entities, particularly Sensors, Actuators, Samplers, and other Platforms."@en .
+<http://www.w3.org/ns/sosa/Platform> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/Platform> <http://www.w3.org/2000/01/rdf-schema#label> "Platform"@en .
+<http://www.w3.org/ns/sosa/Platform> <http://www.w3.org/2004/02/skos/core#definition> "A Platform is an entity that hosts other entities, particularly Sensors, Actuators, Samplers, and other Platforms."@en .
+<http://www.w3.org/ns/sosa/Platform> <http://www.w3.org/2004/02/skos/core#example> "A post, buoy, vehicle, ship, aircraft, satellite, cell-phone, human or animal may act as platforms for (technical or biological) sensors or actuators."@en .
+# 
+# http://www.w3.org/ns/sosa/Procedure
+<http://www.w3.org/ns/sosa/Procedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/sosa/Procedure> <http://www.w3.org/2000/01/rdf-schema#comment> "A workflow, protocol, plan, algorithm, or computational method specifying how to make an Observation, create a Sample, or make a change to the state of the world (via an Actuator). A Procedure is re-usable, and might be involved in many Observations, Samplings, or Actuations. It explains the steps to be carried out to arrive at reproducible results."@en .
+<http://www.w3.org/ns/sosa/Procedure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/Procedure> <http://www.w3.org/2000/01/rdf-schema#label> "Procedure"@en .
+<http://www.w3.org/ns/sosa/Procedure> <http://www.w3.org/2004/02/skos/core#definition> "A workflow, protocol, plan, algorithm, or computational method specifying how to make an Observation, create a Sample, or make a change to the state of the world (via an Actuator). A Procedure is re-usable, and might be involved in many Observations, Samplings, or Actuations. It explains the steps to be carried out to arrive at reproducible results."@en .
+<http://www.w3.org/ns/sosa/Procedure> <http://www.w3.org/2004/02/skos/core#example> "The measured wind speed differs depending on the height of the sensor above the surface, e.g., due to friction. Consequently, procedures for measuring wind speed define a standard height for anemometers above ground, typically 10m for meteorological measures and 2m in Agrometeorology. This definition of height, sensor placement, and so forth are defined by the Procedure."@en .
+<http://www.w3.org/ns/sosa/Procedure> <http://www.w3.org/2004/02/skos/core#note> "Many observations may be created via the same Procedure, the same way as many tables are assembled using the same instructions (as information objects, not their concrete realization)."@en .
+# 
+# http://www.w3.org/ns/sosa/Result
+<http://www.w3.org/ns/sosa/Result> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/sosa/Result> <http://www.w3.org/2000/01/rdf-schema#comment> "The Result of an Observation, Actuation, or act of Sampling. To store an observation's simple result value one can use the hasSimpleResult property."@en .
+<http://www.w3.org/ns/sosa/Result> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/Result> <http://www.w3.org/2000/01/rdf-schema#label> "Result"@en .
+<http://www.w3.org/ns/sosa/Result> <http://www.w3.org/2004/02/skos/core#definition> "The Result of an Observation, Actuation, or act of Sampling. To store an observation's simple result value one can use the hasSimpleResult property."@en .
+<http://www.w3.org/ns/sosa/Result> <http://www.w3.org/2004/02/skos/core#example> "The value 20 as the height of a certain tree together with the unit, e.g., Meter."@en .
+# 
+# http://www.w3.org/ns/sosa/Sample
+<http://www.w3.org/ns/sosa/Sample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/sosa/Sample> <http://www.w3.org/2000/01/rdf-schema#comment> "A Sample is the result from an act of Sampling."@en .
+<http://www.w3.org/ns/sosa/Sample> <http://www.w3.org/2000/01/rdf-schema#comment> "Feature which is intended to be representative of a FeatureOfInterest on which Observations may be made."@en .
+<http://www.w3.org/ns/sosa/Sample> <http://www.w3.org/2000/01/rdf-schema#comment> "Physical samples are sometimes known as 'specimens'."@en .
+<http://www.w3.org/ns/sosa/Sample> <http://www.w3.org/2000/01/rdf-schema#comment> "Samples are artifacts of an observational strategy, and have no significant function outside of their role in the observation process. The characteristics of the samples themselves are of little interest, except perhaps to the manager of a sampling campaign.\n\nA Sample is intended to sample some FatureOfInterest, so there is an expectation of at least one isSampleOf property. However, in some cases the identity, and even the exact type, of the sampled feature may not be known when observations are made using the sampling features."@en .
+<http://www.w3.org/ns/sosa/Sample> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/Sample> <http://www.w3.org/2000/01/rdf-schema#label> "Sample"@en .
+<http://www.w3.org/ns/sosa/Sample> <http://www.w3.org/2004/02/skos/core#definition> "Feature which is intended to be representative of a FeatureOfInterest on which Observations may be made."@en .
+<http://www.w3.org/ns/sosa/Sample> <http://www.w3.org/2004/02/skos/core#example> "A 'station' is essentially an identifiable locality where a sensor system or Procedure may be deployed and an observation made. In the context of the observation model, it connotes the 'world in the vicinity of the station', so the observed properties relate to the physical medium at the station, and not to any physical artifact such as a mooring, buoy, benchmark, monument, well, etc."@en .
+<http://www.w3.org/ns/sosa/Sample> <http://www.w3.org/2004/02/skos/core#example> "A statistical sample is often designed to be characteristic of an entire population, so that observations can be made regarding the sample that provide a good estimate of the properties of the population."@en .
+<http://www.w3.org/ns/sosa/Sample> <http://www.w3.org/2004/02/skos/core#note> "A transient sample, such as a ships-track or flight-line, might be identified and described, but is unlikely to be revisited exactly."@en .
+# 
+# http://www.w3.org/ns/sosa/Sampler
+<http://www.w3.org/ns/sosa/Sampler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/sosa/Sampler> <http://www.w3.org/2000/01/rdf-schema#comment> "A device that is used by, or implements, a Sampling Procedure to create or transform one or more samples."@en .
+<http://www.w3.org/ns/sosa/Sampler> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/Sampler> <http://www.w3.org/2000/01/rdf-schema#label> "Sampler"@en .
+<http://www.w3.org/ns/sosa/Sampler> <http://www.w3.org/2004/02/skos/core#definition> "A device that is used by, or implements, a Sampling Procedure to create or transform one or more samples."@en .
+<http://www.w3.org/ns/sosa/Sampler> <http://www.w3.org/2004/02/skos/core#example> "A ball mill, diamond drill, hammer, hypodermic syringe and needle, image Sensor or a soil auger can all act as sampling devices (i.e., be Samplers). However, sometimes the distinction between the Sampler and the Sensor is not evident, as they are packaged as a unit. A Sampler need not be a physical device."@en .
+# 
+# http://www.w3.org/ns/sosa/Sampling
+<http://www.w3.org/ns/sosa/Sampling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/sosa/Sampling> <http://www.w3.org/2000/01/rdf-schema#comment> "An act of Sampling carries out a sampling Procedure to create or transform one or more samples."@en .
+<http://www.w3.org/ns/sosa/Sampling> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/Sampling> <http://www.w3.org/2000/01/rdf-schema#label> "Sampling"@en .
+<http://www.w3.org/ns/sosa/Sampling> <http://www.w3.org/2004/02/skos/core#definition> "An act of Sampling carries out a sampling Procedure to create or transform one or more samples."@en .
+<http://www.w3.org/ns/sosa/Sampling> <http://www.w3.org/2004/02/skos/core#example> "Crushing a rock sample in a ball mill."@en .
+<http://www.w3.org/ns/sosa/Sampling> <http://www.w3.org/2004/02/skos/core#example> "Digging a pit through a soil sequence."@en .
+<http://www.w3.org/ns/sosa/Sampling> <http://www.w3.org/2004/02/skos/core#example> "Dividing a field site into quadrants."@en .
+<http://www.w3.org/ns/sosa/Sampling> <http://www.w3.org/2004/02/skos/core#example> "Drawing blood from a patient."@en .
+<http://www.w3.org/ns/sosa/Sampling> <http://www.w3.org/2004/02/skos/core#example> "Drilling an observation well."@en .
+<http://www.w3.org/ns/sosa/Sampling> <http://www.w3.org/2004/02/skos/core#example> "Establishing a station for environmental monitoring."@en .
+<http://www.w3.org/ns/sosa/Sampling> <http://www.w3.org/2004/02/skos/core#example> "Registering an image of the landscape."@en .
+<http://www.w3.org/ns/sosa/Sampling> <http://www.w3.org/2004/02/skos/core#example> "Selecting a subset of a population."@en .
+<http://www.w3.org/ns/sosa/Sampling> <http://www.w3.org/2004/02/skos/core#example> "Sieving a powder to separate the subset finer than 100-mesh."@en .
+<http://www.w3.org/ns/sosa/Sampling> <http://www.w3.org/2004/02/skos/core#example> "Splitting a piece of drill-core to create two new samples."@en .
+<http://www.w3.org/ns/sosa/Sampling> <http://www.w3.org/2004/02/skos/core#example> "Taking a diamond-drill core from a rock outcrop."@en .
+# 
+# http://www.w3.org/ns/sosa/Sensor
+<http://www.w3.org/ns/sosa/Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/sosa/Sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a stimulus, e.g., a change in the environment, or input data composed from the results of prior Observations, and generate a Result. Sensors can be hosted by Platforms."@en .
+<http://www.w3.org/ns/sosa/Sensor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/sosa/> .
+<http://www.w3.org/ns/sosa/Sensor> <http://www.w3.org/2000/01/rdf-schema#label> "Sensor"@en .
+<http://www.w3.org/ns/sosa/Sensor> <http://www.w3.org/2004/02/skos/core#definition> "Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a stimulus, e.g., a change in the environment, or input data composed from the results of prior Observations, and generate a Result. Sensors can be hosted by Platforms."@en .
+<http://www.w3.org/ns/sosa/Sensor> <http://www.w3.org/2004/02/skos/core#example> "Accelerometers, gyroscopes, barometers, magnetometers, and so forth are Sensors that are typically mounted on a modern smart phone (which acts as Platform). Other examples of sensors include the human eyes."@en .
+# 
+# http://xmlns.com/foaf/0.1/Agent
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/resource/Water
+<http://dbpedia.org/resource/Water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/resource/Water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/sosa/FeatureOfInterest> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Aldrin
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Aldrin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Aldrin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Aldrin> <http://www.w3.org/2000/01/rdf-schema#label> "PLA: Aldrin"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Aldrin> <http://www.w3.org/2000/01/rdf-schema#label> "PLA: Aldrin"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Clorpirifos
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Clorpirifos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Clorpirifos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Clorpirifos> <http://www.w3.org/2000/01/rdf-schema#label> "PLA: Chlorpyrifos"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Clorpirifos> <http://www.w3.org/2000/01/rdf-schema#label> "PLA: Clorpirifos"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Dieldrin
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Dieldrin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Dieldrin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Dieldrin> <http://www.w3.org/2000/01/rdf-schema#label> "PLA: Dieldrin"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Dieldrin> <http://www.w3.org/2000/01/rdf-schema#label> "PLA: Dieldrin"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Heptacloro
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Heptacloro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Heptacloro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Heptacloro> <http://www.w3.org/2000/01/rdf-schema#label> "PLA: Heptachlor"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-Heptacloro> <http://www.w3.org/2000/01/rdf-schema#label> "PLA: Heptacloro"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-HeptacloroEpoxido
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-HeptacloroEpoxido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-HeptacloroEpoxido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-HeptacloroEpoxido> <http://www.w3.org/2000/01/rdf-schema#label> "PLA: Heptachlor Epoxide"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-HeptacloroEpoxido> <http://www.w3.org/2000/01/rdf-schema#label> "PLA: Heptacloro Epoxido"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-alfaHCH
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-alfaHCH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-alfaHCH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-alfaHCH> <http://www.w3.org/2000/01/rdf-schema#label> "PLA: alfa HCH"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-alfaHCH> <http://www.w3.org/2000/01/rdf-schema#label> "PLA: alpha HCH"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-betaHCH
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-betaHCH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-betaHCH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-betaHCH> <http://www.w3.org/2000/01/rdf-schema#label> "PLA: beta HCH"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-betaHCH> <http://www.w3.org/2000/01/rdf-schema#label> "PLA: beta HCH"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-deltaHCH
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-deltaHCH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-deltaHCH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-deltaHCH> <http://www.w3.org/2000/01/rdf-schema#label> "PLA: delta HCH"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-deltaHCH> <http://www.w3.org/2000/01/rdf-schema#label> "PLA: delta HCH"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-gammaHCH
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-gammaHCH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-gammaHCH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-gammaHCH> <http://www.w3.org/2000/01/rdf-schema#label> "PLA: gamma HCH"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#PLA-gammaHCH> <http://www.w3.org/2000/01/rdf-schema#label> "PLA: gamma HCH"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#alcalinidad
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#alcalinidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#alcalinidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#alcalinidad> <http://www.w3.org/2000/01/rdf-schema#label> "Alcalinidad"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#alcalinidad> <http://www.w3.org/2000/01/rdf-schema#label> "Alkalinity"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#carbonoOrganicoTotal
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#carbonoOrganicoTotal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#carbonoOrganicoTotal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#carbonoOrganicoTotal> <http://www.w3.org/2000/01/rdf-schema#label> "Carbono orgánico total"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#carbonoOrganicoTotal> <http://www.w3.org/2000/01/rdf-schema#label> "Total organic carbon"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#cloroCombinadoResidual
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#cloroCombinadoResidual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#cloroCombinadoResidual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#cloroCombinadoResidual> <http://www.w3.org/2000/01/rdf-schema#label> "Cloro combinado residual"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#cloroCombinadoResidual> <http://www.w3.org/2000/01/rdf-schema#label> "Residual combined chlorine"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#cloroLibreResidual
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#cloroLibreResidual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#cloroLibreResidual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#cloroLibreResidual> <http://www.w3.org/2000/01/rdf-schema#label> "Cloro libre residual"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#cloroLibreResidual> <http://www.w3.org/2000/01/rdf-schema#label> "Residual free chlorine"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#color
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#color> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#color> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#color> <http://www.w3.org/2000/01/rdf-schema#label> "Color"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#color> <http://www.w3.org/2000/01/rdf-schema#label> "Colour"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionAluminio
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionAluminio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionAluminio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionAluminio> <http://www.w3.org/2000/01/rdf-schema#label> "Aluminum concentration"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionAluminio> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Aluminio"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionAmonio
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionAmonio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionAmonio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionAmonio> <http://www.w3.org/2000/01/rdf-schema#label> "Ammonium concentration"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionAmonio> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Amonio"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionAntimonio
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionAntimonio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionAntimonio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionAntimonio> <http://www.w3.org/2000/01/rdf-schema#label> "Antimony Concentration"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionAntimonio> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Antimonio"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionArsenico
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionArsenico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionArsenico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionArsenico> <http://www.w3.org/2000/01/rdf-schema#label> "Arsenic concentration"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionArsenico> <http://www.w3.org/2000/01/rdf-schema#label> "ConcentraciónArsenico"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBacteriasColiformes
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBacteriasColiformes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBacteriasColiformes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBacteriasColiformes> <http://www.w3.org/2000/01/rdf-schema#label> "Coliform Bacteria Concentration"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBacteriasColiformes> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Bacterias Coliformes"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenceno
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenceno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenceno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenceno> <http://www.w3.org/2000/01/rdf-schema#label> "Benzene concentration"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenceno> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Benceno"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoAPireno
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoAPireno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoAPireno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoAPireno> <http://www.w3.org/2000/01/rdf-schema#label> "Benzo A Pyrene Concentration"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoAPireno> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Benzo (a) Pireno"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoBFluoranteno
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoBFluoranteno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoBFluoranteno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoBFluoranteno> <http://www.w3.org/2000/01/rdf-schema#label> "Benzo B Fluoranthene Concentration"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoBFluoranteno> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Benzo (b) Fluoranteno"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoGHIPerileno
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoGHIPerileno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoGHIPerileno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoGHIPerileno> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Benzo (g,h,i) Perileno"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoGHIPerileno> <http://www.w3.org/2000/01/rdf-schema#label> "Concentration of Benzo GHI Perylene"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoKFluoranteno
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoKFluoranteno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoKFluoranteno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoKFluoranteno> <http://www.w3.org/2000/01/rdf-schema#label> "Benzo K Fluoranthene Concentration"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBenzoKFluoranteno> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Benzo (k) Fluoranteno"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBoro
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBoro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBoro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBoro> <http://www.w3.org/2000/01/rdf-schema#label> "Boron concentration"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBoro> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Boro"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBromodiclorometamo
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBromodiclorometamo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBromodiclorometamo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBromodiclorometamo> <http://www.w3.org/2000/01/rdf-schema#label> "Bromine Dichloromethane Concentration"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBromodiclorometamo> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Bromo Diclorometamo"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBromoformo
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBromoformo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBromoformo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBromoformo> <http://www.w3.org/2000/01/rdf-schema#label> "Bromoform concentration"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionBromoformo> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Bromoformo"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCadmio
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCadmio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCadmio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCadmio> <http://www.w3.org/2000/01/rdf-schema#label> "Cadmium concentration"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCadmio> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Cadmio"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCalcio
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCalcio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCalcio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCalcio> <http://www.w3.org/2000/01/rdf-schema#label> "Calcium concentration"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCalcio> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Calcio"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCianuro
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCianuro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCianuro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCianuro> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Cianuro"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCianuro> <http://www.w3.org/2000/01/rdf-schema#label> "Cyanide Concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCloroformo
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCloroformo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCloroformo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCloroformo> <http://www.w3.org/2000/01/rdf-schema#label> "Chloroform concentration"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCloroformo> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Cloroformo"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCloruro
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCloruro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCloruro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCloruro> <http://www.w3.org/2000/01/rdf-schema#label> "Chloride Concentration"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCloruro> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Cloruro"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionClostridiumPerfringens
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionClostridiumPerfringens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionClostridiumPerfringens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionClostridiumPerfringens> <http://www.w3.org/2000/01/rdf-schema#label> "Clostridium Perfringens Concentration"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionClostridiumPerfringens> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Clostridium Perfringens"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCobre
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCobre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCobre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCobre> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Cobre"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionCobre> <http://www.w3.org/2000/01/rdf-schema#label> "Copper Concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionDibromoclorometano
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionDibromoclorometano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionDibromoclorometano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionDibromoclorometano> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Dibromoclorometano"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionDibromoclorometano> <http://www.w3.org/2000/01/rdf-schema#label> "Dibromochloromethane concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionDiocloroetano
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionDiocloroetano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionDiocloroetano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionDiocloroetano> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Diocloroetano"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionDiocloroetano> <http://www.w3.org/2000/01/rdf-schema#label> "Diochloroethane concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionEnterococo
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionEnterococo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionEnterococo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionEnterococo> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Enterococo"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionEnterococo> <http://www.w3.org/2000/01/rdf-schema#label> "Enterococcus concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionEscherichiaColi
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionEscherichiaColi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionEscherichiaColi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionEscherichiaColi> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Escherichia Coli"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionEscherichiaColi> <http://www.w3.org/2000/01/rdf-schema#label> "Escherichia coli concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionFluoruro
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionFluoruro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionFluoruro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionFluoruro> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Fluoruro"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionFluoruro> <http://www.w3.org/2000/01/rdf-schema#label> "Fluoride Concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionFonofos
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionFonofos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionFonofos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionFonofos> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Fonofos"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionFonofos> <http://www.w3.org/2000/01/rdf-schema#label> "Phonophos concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionHidrocarburosPoliciclicosAromaticos
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionHidrocarburosPoliciclicosAromaticos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionHidrocarburosPoliciclicosAromaticos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionHidrocarburosPoliciclicosAromaticos> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Hidrocarburos Policiclicos Aromaticos"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionHidrocarburosPoliciclicosAromaticos> <http://www.w3.org/2000/01/rdf-schema#label> "Concentration of Polycyclic Aromatic Hydrocarbons"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionHierro
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionHierro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionHierro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionHierro> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Hierro"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionHierro> <http://www.w3.org/2000/01/rdf-schema#label> "Iron concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionMagnesio
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionMagnesio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionMagnesio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionMagnesio> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Magnesio"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionMagnesio> <http://www.w3.org/2000/01/rdf-schema#label> "Magnesium concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionManganeso
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionManganeso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionManganeso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionManganeso> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Manganeso"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionManganeso> <http://www.w3.org/2000/01/rdf-schema#label> "Manganese concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionMeltiparation
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionMeltiparation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionMeltiparation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionMeltiparation> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Metil paration"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionMeltiparation> <http://www.w3.org/2000/01/rdf-schema#label> "Methyl Parathion Concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionMercurio
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionMercurio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionMercurio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionMercurio> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Mercurio"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionMercurio> <http://www.w3.org/2000/01/rdf-schema#label> "Mercury concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNiquel
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNiquel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNiquel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNiquel> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Níquel"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNiquel> <http://www.w3.org/2000/01/rdf-schema#label> "Nickel concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNitrato
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNitrato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNitrato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNitrato> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Nitrato"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNitrato> <http://www.w3.org/2000/01/rdf-schema#label> "Nitrate concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNitrito
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNitrito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNitrito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNitrito> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Nitrito"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNitrito> <http://www.w3.org/2000/01/rdf-schema#label> "Nitrite concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNitrogenoKjeldahl
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNitrogenoKjeldahl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNitrogenoKjeldahl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNitrogenoKjeldahl> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Nitrógeno Kjeldahl"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionNitrogenoKjeldahl> <http://www.w3.org/2000/01/rdf-schema#label> "Kjeldahl Nitrogen Concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionPlomo
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionPlomo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionPlomo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionPlomo> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Plomo"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionPlomo> <http://www.w3.org/2000/01/rdf-schema#label> "Lead Concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionPotasio
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionPotasio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionPotasio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionPotasio> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Potasio"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionPotasio> <http://www.w3.org/2000/01/rdf-schema#label> "Potassium concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionSelenio
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionSelenio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionSelenio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionSelenio> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Selenio"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionSelenio> <http://www.w3.org/2000/01/rdf-schema#label> "Selenium concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionSodio
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionSodio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionSodio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionSodio> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Sodio"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionSodio> <http://www.w3.org/2000/01/rdf-schema#label> "Sodium concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionSulfato
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionSulfato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionSulfato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionSulfato> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Sulfato"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionSulfato> <http://www.w3.org/2000/01/rdf-schema#label> "Sulfate Concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionTetracloroeteno
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionTetracloroeteno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionTetracloroeteno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionTetracloroeteno> <http://www.w3.org/2000/01/rdf-schema#label> "Concentración Tetracloroetileno"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#concentracionTetracloroeteno> <http://www.w3.org/2000/01/rdf-schema#label> "Tetrachlorethylene concentration"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#conductividadA20GradosCentigrados
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#conductividadA20GradosCentigrados> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#conductividadA20GradosCentigrados> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#conductividadA20GradosCentigrados> <http://www.w3.org/2000/01/rdf-schema#label> "Conductividad a 20ºC"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#conductividadA20GradosCentigrados> <http://www.w3.org/2000/01/rdf-schema#label> "Conductivity at 20ºC"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#cromoTotal
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#cromoTotal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#cromoTotal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#cromoTotal> <http://www.w3.org/2000/01/rdf-schema#label> "Cromo total"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#cromoTotal> <http://www.w3.org/2000/01/rdf-schema#label> "Total chrome"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#dureza
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#dureza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#dureza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#dureza> <http://www.w3.org/2000/01/rdf-schema#label> "Dureza"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#dureza> <http://www.w3.org/2000/01/rdf-schema#label> "Hardness"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#indeno123-cdPireno
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#indeno123-cdPireno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#indeno123-cdPireno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#indeno123-cdPireno> <http://www.w3.org/2000/01/rdf-schema#label> "Indeno 123-CD Pyrene"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#indeno123-cdPireno> <http://www.w3.org/2000/01/rdf-schema#label> "Indeno-123-cd Pireno"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#indiceDeLangelier
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#indiceDeLangelier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#indiceDeLangelier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#indiceDeLangelier> <http://www.w3.org/2000/01/rdf-schema#label> "Langelier index"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#indiceDeLangelier> <http://www.w3.org/2000/01/rdf-schema#label> "Índice de Langelier"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#oxidabilidad
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#oxidabilidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#oxidabilidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#oxidabilidad> <http://www.w3.org/2000/01/rdf-schema#label> "Oxidabilidad"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#oxidabilidad> <http://www.w3.org/2000/01/rdf-schema#label> "Oxidability"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#pH
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#pH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#pH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#pH> <http://www.w3.org/2000/01/rdf-schema#label> "pH"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#pH> <http://www.w3.org/2000/01/rdf-schema#label> "pH"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#paration
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#paration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#paration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#paration> <http://www.w3.org/2000/01/rdf-schema#label> "Parathion"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#paration> <http://www.w3.org/2000/01/rdf-schema#label> "Paration"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#radiactividadAlfaTotal
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#radiactividadAlfaTotal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#radiactividadAlfaTotal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#radiactividadAlfaTotal> <http://www.w3.org/2000/01/rdf-schema#label> "Radiactividad alfa total"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#radiactividadAlfaTotal> <http://www.w3.org/2000/01/rdf-schema#label> "Total alpha radioactivity"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#radiactividadBetaResto
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#radiactividadBetaResto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#radiactividadBetaResto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#radiactividadBetaResto> <http://www.w3.org/2000/01/rdf-schema#label> "Beta radioactivity remainder"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#radiactividadBetaResto> <http://www.w3.org/2000/01/rdf-schema#label> "Radiactividad beta resto"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#radiactividadBetaTotal
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#radiactividadBetaTotal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#radiactividadBetaTotal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#radiactividadBetaTotal> <http://www.w3.org/2000/01/rdf-schema#label> "Radiactividad beta total"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#radiactividadBetaTotal> <http://www.w3.org/2000/01/rdf-schema#label> "Total beta radioactivity"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#recuentoDeColoniasA22GradosCentigrados
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#recuentoDeColoniasA22GradosCentigrados> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#recuentoDeColoniasA22GradosCentigrados> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#recuentoDeColoniasA22GradosCentigrados> <http://www.w3.org/2000/01/rdf-schema#label> "Colony count at 22ºC"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#recuentoDeColoniasA22GradosCentigrados> <http://www.w3.org/2000/01/rdf-schema#label> "Recuento de colonias a 22ºC"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#residuoSeco
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#residuoSeco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#residuoSeco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#residuoSeco> <http://www.w3.org/2000/01/rdf-schema#label> "Dry residue"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#residuoSeco> <http://www.w3.org/2000/01/rdf-schema#label> "Residuo seco"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#totalDePlaguicidas
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#totalDePlaguicidas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#totalDePlaguicidas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#totalDePlaguicidas> <http://www.w3.org/2000/01/rdf-schema#label> "Total de plaguicidas"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#totalDePlaguicidas> <http://www.w3.org/2000/01/rdf-schema#label> "Total pesticides"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#tricloroeteno
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#tricloroeteno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#tricloroeteno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#tricloroeteno> <http://www.w3.org/2000/01/rdf-schema#label> "Trichloroethene"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#tricloroeteno> <http://www.w3.org/2000/01/rdf-schema#label> "Tricloroeteno"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#tricloroetenoTetracloretono
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#tricloroetenoTetracloretono> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#tricloroetenoTetracloretono> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#tricloroetenoTetracloretono> <http://www.w3.org/2000/01/rdf-schema#label> "Trichloroethene + Tetrachloroethene"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#tricloroetenoTetracloretono> <http://www.w3.org/2000/01/rdf-schema#label> "Tricloroeteno + Tetracloroeteno"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#trihalometanos
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#trihalometanos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#trihalometanos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#trihalometanos> <http://www.w3.org/2000/01/rdf-schema#label> "Trihalometanos"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#trihalometanos> <http://www.w3.org/2000/01/rdf-schema#label> "Trihalomethanes"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#turbidez
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#turbidez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#turbidez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#turbidez> <http://www.w3.org/2000/01/rdf-schema#label> "Turbidez"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#turbidez> <http://www.w3.org/2000/01/rdf-schema#label> "Turbidity"@en .
+# 
+# http://www.w3.org/ns/sosa/
+<http://www.w3.org/ns/sosa/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/ns/sosa/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+# 
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+_:genid5 <http://xmlns.com/foaf/0.1/name> "W3C/OGC Spatial Data on the Web Working Group"@en .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+_:genid6 <http://xmlns.com/foaf/0.1/name> "W3C/OGC Spatial Data on the Web Working Group"@en .
+_:genid7 <http://www.w3.org/2000/01/rdf-schema#label> "HTML" .
+_:genid8 <http://www.w3.org/2000/01/rdf-schema#label> "RDF" .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
