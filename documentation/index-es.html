@@ -92,7 +92,7 @@ Este vocabulario extiende la W3C Semantic Sensor Network Ontology (SOSA) con pro
 
 <!--INTRODUCTION SECTION-->
     <div id="introduction"><h2 id="intro" class="list">Introducci&oacute;n <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
-<span class="markdown">Este p&aacute;rrafo deber&iacute;a hablar sobre la ontolog&iacute;a, motivaci&oacute;n estado del arte y objetivos</span>
+<span class="markdown">Esta ontología proporciona una estructura común para la representación de datos de calidad del agua en ciudades.</span>
 <div id="namespacedeclarations">
 <h3 id="ns" class="list">Declaraci&oacute;n de namespaces</h3>
 <div id="ns" align="center">
@@ -694,8 +694,34 @@ Este vocabulario extiende la W3C Semantic Sensor Network Ontology (SOSA) con pro
 
 <!--DESCRIPTION SECTION-->
     <div id="description"><h2 id="desc" class="list">Calidad del Agua: Descripci&oacute;n <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
-<span class="markdown">Descripci&oacute;n completa de la ontolog&iacute;a: en caso de ser posible, a&ntilde;adir un diagrama explicando c&oacute;omo las clases est&aacute;n relacionadas, ejemplos de uso, etc.</span>
 
+Este vocabulario extiende la ontología W3C Semantic Sensor Network Ontology (conocida como SOSA) con un conjunto de propiedades que son específicas del dominio de la calidad del agua, con el objetivo de reprentar los datos de calidad del agua medidos por estaciones de calidad del agua de forma homogénea.
+La ontología que se extiende con este vocabulario, W3C Semantic Sensor Ontology (SOSA), viene representada en la siguiente figura, donde se puede observar como las distintas medidas que se toman, representados por <a href="#http://www.w3.org/ns/sosa/Observation" title="http://www.w3.org/ns/sosa/Observation">sosa:Observation</a>, y su valor, <a href="#http://www.w3.org/ns/sosa/Result" title="http://www.w3.org/ns/sosa/Result">sosa:Result</a>, de una propiedad concreta, <a href="#http://www.w3.org/ns/sosa/ObservableProperty" title="http://www.w3.org/ns/sosa/ObservableProperty">sosa:ObservableProperty</a>, de un objeto concreto, <a href="#http://www.w3.org/ns/sosa/FeatureOfInterest" title="http://www.w3.org/ns/sosa/FeatureOfInterest">sosa:featureOfInterest</a>, son medidas por un sensor <a href="#http://www.w3.org/ns/sosa/Sensor" title="http://www.w3.org/ns/sosa/Sensor">sosa:Sensor</a> que a su vez, está contenido por las estaciones que realizan las medidas, <a href="#http://www.w3.org/ns/sosa/Platform" title="http://www.w3.org/ns/sosa/Platform">sosa:Platform</a>.
+</br>
+<center><img src="sosa.png" width="600" height="400"/></center>
+</br></br>
+En este caso, se expande la ontología para representar las clases que son específicas del dominio que se quiere representar, en este caso de la calidad del agua, tal y como se ve en la siguiente figura:
+</br>
+<center><img src="calidad-agua.png" width="600" height="600"/></center>
+Las clases adicionales de este vocabulario son:
+<ul>
+	<li>
+         <a href="#WaterQualityStation"
+            title="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityStation">calidad-agua:WaterQualityStation</a>: Se refiere a las estaciones que miden las propiedades del agua, sobre la que se determina su calidad.
+    </li>
+	<li>
+         <a href="#WaterQualityObservation"
+            title="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityObservation">calidad-agua:WaterQualityObservation</a>: Se refiere a cada una de las distintas medidas que se toman del <a href="#https://dbpedia.org/page/Water" title="https://dbpedia.org/page/Water">dbpedia:Water</a>.
+     </li>
+	 <li>
+         <a href="#WaterQualityProperty"
+            title="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualityProperty">calidad-agua:WaterQualityProperty</a>: Se refiere a las distintas propiedades sobre el agua que sobre las que se toman medidas.
+     </li>
+      <li>
+         <a href="#WaterQualitySensor"
+            title="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-agua#WaterQualitySensor">calidad-agua:WaterQualitySensor</a>: Se refiere a cada uno de los sensores especificos de la medición de las propiedades del agua que se encuentran en las estaciones de medición.
+      </li>
+</ul>
 </div>
    
 
